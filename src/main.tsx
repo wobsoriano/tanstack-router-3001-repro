@@ -32,7 +32,7 @@ if (!rootElement.innerHTML) {
   const root = ReactDOM.createRoot(rootElement)
   root.render(
     <StrictMode>
-      <ClerkProvider>
+      <ClerkProvider publishableKey="pk_test_d2FybS10b3VjYW4tNjIuY2xlcmsuYWNjb3VudHMuZGV2JA">
         <InnerApp />
       </ClerkProvider>
     </StrictMode>,
